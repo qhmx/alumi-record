@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mv_nav.master.cs" Inherits="mv_nav" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="App_Style/main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div>
+            <div id="div_head"> 
+            <span style="font-family:华文彩云;font-size:30px;color:#ff6a00;display:inline-block;height:44px;width:350px;vertical-align:middle;line-height:44px;">校友录后台管理系统</span>
+            
+            <a href="../Front/index.aspx" target="_parent" id="log_out" >退出系统</a>
+            <asp:Label ID="lab_user" runat="server" Text=""></asp:Label>
+         </div>
+        </div>
+        <div id="div_main">
+            
+                <div id="div_nav">
+                    <asp:Menu ID="menu_nav" runat="server" MaximumDynamicDisplayLevels="3"
+                     Orientation="Horizontal" StaticDisplayLevels="2" 
+                        DataSourceID="SiteMapDataSource1" OnPreRender="sitePreRender" 
+                      OnMenuItemDataBound="siteBound" StaticMenuItemStyle-Height="30px" StaticMenuItemStyle-HorizontalPadding="15px" 
+                         StaticMenuItemStyle-Width="110px"  StaticSelectedStyle-BackColor="Red" StaticEnableDefaultPopOutImage="false" BackColor="White" StaticMenuItemStyle-ForeColor="#999999">
+
+                    </asp:Menu>
+            
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </div>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+         
+                </asp:ContentPlaceHolder>
+           
+           
+            
+        </div>
+        <div id="div_foot">
+          <p style="text-align:center;line-height:50px;font-size:12px;">版权所有----太原科技大学</p>
+        </div>
+        
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/UserPart/UserIndex.aspx" title="首页"  description="">
+        <siteMapNode url="~/UserPart/UserForum.aspx" title="论坛"  description="" resourceKey="首页/论坛" />
+        <siteMapNode url="~/UserPart/UserChatRoom.aspx" title="聊天空间"  description="" resourceKey="首页/聊天空间" />
+        <siteMapNode url="~/UserPart/UserInfoEdit.aspx" title="资料修改"  description="" resourceKey="首页/资料修改" />
+    </siteMapNode>
+</siteMap>

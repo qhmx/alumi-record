@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/menu_main.aspx" title="首页"  description="">
+        <siteMapNode url="~/admin/" title="管理员信息管理"  description=""  >
+          <siteMapNode url="~/admin/admin_edit.aspx" title="修改管理员信息" description="" resourceKey="首页/管理员信息管理"/>
+          <siteMapNode url="~/admin/admin_add.aspx" title="添加管理员" description="" resourceKey="首页/管理员信息管理"/>
+        </siteMapNode>
+        <siteMapNode url="~/user/" title="用户信息管理"  description=""  >
+          <siteMapNode url="~/user/user_edit.aspx" title="修改用户信息" description="" resourceKey="首页/用户信息管理"/>
+          <siteMapNode url="~/user/user_add.aspx" title="添加用户" description="" resourceKey="首页/用户信息管理"/>
+        </siteMapNode>
+      <siteMapNode url="~/class/" title="群信息管理"  description=""  >
+        <siteMapNode url="~/class/class_edit.aspx" title="修改群信息" description="" resourceKey="首页/群信息管理"/>
+        <siteMapNode url="~/class/add.aspx" title="添加群" description="" resourceKey="首页/群信息管理"/>
+      </siteMapNode>
+      <siteMapNode url="~/forum/" title="论坛信息管理"  description=""  >
+        <siteMapNode url="~/forum/forum_edit.aspx" title="论坛帖子管理" description="" resourceKey="首页/论坛信息管理"/>
+        <siteMapNode url="~/forum/forum_Review.aspx" title="论坛评论管理" description="" resourceKey="首页/论坛信息管理"/>
+      </siteMapNode>
+      <siteMapNode url="~/chat/" title="聊天信息管理"  description=""  >
+        <siteMapNode url="~/chat/Mchat_edit.aspx" title="群聊信息管理" description="" resourceKey="首页/聊天信息管理"/>
+        <siteMapNode url="~/chat/Schat_edit.aspx" title="私聊信息管理" description="" resourceKey="首页/聊天信息管理"/>
+      </siteMapNode>
+      <siteMapNode url="~/Notice/" title="公告信息管理"  description=""  >
+        <siteMapNode url="~/Notice/Notice_Edit.aspx" title="公告信息管理" description="" resourceKey="首页/公告信息管理"/>
+      </siteMapNode>
+      <siteMapNode url="~/File/" title="文件信息管理"  description=""  >
+        <siteMapNode url="~/File/File_Edit.aspx" title="文件信息管理" description="" resourceKey="首页/文件信息管理"/>
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

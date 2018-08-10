@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/NAV/Default.aspx" title="首页"  description="">
+        <siteMapNode url="~/NAV/L2A_about.aspx" title="关于我们"  description="" >
+            <siteMapNode url="~/NAV/L3A_brief.aspx" title="公司简介"  description="" resourceKey="首页/关于我们" />
+            <siteMapNode url="~/NAv/L3A_cul.aspx" title="企业文化"  description="" resourceKey="首页/关于我们" />
+            <siteMapNode url="~/NAv/l3A_org.aspx" title="组织架构"  description="" resourceKey="首页/关于我们"  />
+        </siteMapNode>
+        <siteMapNode url="~/NAV/L2B_product.aspx" title="产品中心"  description="" >
+            <siteMapNode url="~/NAV/L3B_prodNew.aspx" title="最新产品"  description="" resourceKey="首页/产品中心" />
+            <siteMapNode url="~/NAv/L3B_prodSeries.aspx" title="系列产品"  description=""  resourceKey="首页/产品中心" />
+            <siteMapNode url="~/NAv/l3B_prodSearch.aspx" title="产品搜索"  description=""  resourceKey="首页/产品中心" />
+        </siteMapNode>
+        <siteMapNode url="~/NAv/L2C_news.aspx" title="新闻中心"  description="" >
+            <siteMapNode url="~/NAV/L3C_cNews.aspx" title="公司新闻"  description="" resourceKey="首页/新闻中心" >
+              <siteMapNode url="~/NAV/L4C_compNote.aspx" title="公司公告"  description=""  resourceKey="首页/新闻中心" />
+              <siteMapNode url="~/NAv/L4C_saleNote.aspx" title="优惠促销"  description=""  resourceKey="首页/新闻中心"/>
+            
+            </siteMapNode>
+            <siteMapNode url="~/NAv/L3C_hNews.aspx" title="行业新闻"  description="" resourceKey="首页/新闻中心" />
+            
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>
